@@ -1,0 +1,281 @@
+* {
+    font-family: 'SF Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ensures padding doesn't affect widths */
+}
+
+body {
+    background-color: #161815;
+    font-family: 'SF Pro', sans-serif;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('./Assets/fonts/SFProText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    font-weight: 500;
+    color: #909090;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto;
+}
+
+.logo {
+    width: 111px;
+    height: 48px;
+}
+
+.sign-button {
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #6DE754;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.sign-button:hover {
+
+    color: #1E201D;
+    background-color: #6DE754;
+    transition: 0.5s;
+}
+.get-button {
+    width: 160px;
+    height: 50px;
+    color: #1E201D;
+    background-color: #6DE754;
+    border-radius: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+.get-button:hover {
+
+    color: white;
+    background-color: transparent;
+    border: 1px solid #6DE754;
+    transition: 0.5s;
+}
+
+.header-button {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 130vh; /* Changed to min-height */
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 8vw, 5.5rem); /* Fluid scaling */
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.main-hero {
+    width: 100%;
+    max-width: 850px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 0 20px; /* Added padding */
+}
+
+.hero-p {
+    color: #909090;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+}
+
+.email-section {
+    width: 100%;
+    max-width: 570px;
+    height: 60px;
+    border: 1px solid #909090;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.email-section button {
+    width: 175px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #6DE754;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+.email-section button:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #6DE754;
+    transition: 0.5s;
+}
+
+.email-section input {
+    font-size: 18px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    color: white;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 150px;
+    flex-wrap: wrap; /* Allows cards to wrap */
+    gap: 30px;
+}
+
+.info {
+    background-color: #1E201D;
+    width: 100%;
+    max-width: 360px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.info img {
+    width: 25px;
+    height: 25px;
+}
+
+.info h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info p {
+    color: #909090;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-button {
+        justify-content: center;
+    }
+
+    .main-hero {
+        margin-top: 30px;
+    }
+
+    .email-section {
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .email-section input {
+        padding: 10px;
+    }
+
+    .email-section button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    ul {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .info-cards {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sign-button,
+    .get-button {
+        width: 100%;
+    }
+
+    .header-button {
+        flex-direction: column;
+        width: 100%;
+    }
+}

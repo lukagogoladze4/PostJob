@@ -1,0 +1,92 @@
+.optimize{
+    background-color: #6DE754;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ai-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.ai-content h1, .optimize-content h1{
+    font-size: 48px;
+}
+
+.ai-text{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ai-text button{
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.ai-text button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.optimize-btn {
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.optimize-btn:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+
+.optimize-text{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.optimize-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .optimize-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 120v;
+    }
+    .ai-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .optimize{
+        width: 100%;
+    }
+}
