@@ -8,7 +8,7 @@ const About1 = () => {
                 <h2>Submit Better job applications</h2>
                 <h1>10x faster</h1>
                 <p>AI cover letter generator, resume keyword checker, outreach message writer, and more. Powered by GPT</p>
-                <img src={Overlay}/>
+                <img src={Overlay} alt='overlay'/>
             </section>
         </>
     );

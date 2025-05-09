@@ -39,12 +39,12 @@ const Hero = () => {
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
                     <div className='info'>
-                        <img src={Radio}/>
+                        <img src={Radio} alt='Radio'/>
                         <h2>Smart Personalization</h2>
                         <p>Smart Personalization refers to the use of data and technology to deliver tailored experiences and content to individual customers or users.</p>
                     </div>
                     <div className='info'>
-                        <img src={Maximize}/>
+                        <img src={Maximize} alt='maximize'/>
                         <h2>Resume Scanner</h2>
                         <p>A resume scanner is a software application that uses optical character recognition (OCR) technology to extract and analyze data from resumes.</p>
 

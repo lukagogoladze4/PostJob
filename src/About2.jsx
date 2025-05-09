@@ -14,32 +14,32 @@ const About2 = () => {
                 <div className='info-cards1'>
 
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='letter'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='letter1'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='letter2'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='letter3'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='letter4'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='letter5'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
