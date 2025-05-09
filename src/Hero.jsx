@@ -34,7 +34,7 @@ const Hero = () => {
                 </div>
                 <div className='info-cards'>
                     <div className='info'>
-                        <img src={Letter}/>
+                        <img src={Letter} alt='Letter31'/>
                         <h2>AI Cover Letter Generator</h2>
                         <p>The AI Cover Letter Generator is a tool that uses artificial intelligence algorithms to create personalized cover letters for job applicants.</p>
                     </div>
