@@ -12,9 +12,9 @@ const Hero = () => {
                     <img src={Logo} alt='Logo'/>
                     <nav>
                         <ul>
-                            <li><a href='#'>AI Cover Letter Generator</a></li>
-                            <li><a href='#'>Resume Template</a></li>
-                            <li><a href='#'>Pricing</a></li>
+                            <li>AI Cover Letter Generator</li>
+                            <li>Resume Template</li>
+                            <li>Pricing</li>
                         </ul>
                     </nav>
                 </div>
