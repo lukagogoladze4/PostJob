@@ -64,4 +64,8 @@
         flex-direction: column;
         gap: 30px;
     }
+
+    .About2 button{
+        align-self: center;
+    }
 }

@@ -1,38 +1,41 @@
-*{
+* {
     max-width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
 }
 
-.resume{
+.resume {
     background-color: #161815;
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around; /* Center content horizontally */
+    align-items: center;    /* Center content vertically */
+    padding: 20px;
+    box-sizing: border-box;
 }
-.resume-text{
+
+.resume-text {
     width: 450px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+ 
 }
-.resume-text h1{
+
+.resume-text h1 {
     color: white;
     font-size: 48px;
     font-weight: 600;
-    
 }
 
-.resume-text p{
+.resume-text p {
     color: #909090;
     font-weight: 500;
 }
 
-.resume-text button{
+.resume-text button {
     width: 200px;
     height: 50px;
     color: white;
@@ -40,37 +43,48 @@
     border: 1px solid #6DE754;
     border-radius: 20px;
     font-weight: 600;
-    transition: 0.5s;
+    transition: 0.5s; /* Ensures button is centered */
 }
 
-.resume-text button:hover{
-    width: 200px;
-    height: 50px;
+.resume-text button:hover {
     color: #161815;
     background-color: #6DE754;
     border: 1px solid #161815;
-    border-radius: 20px;
-    font-weight: 600;
     transition: 0.5s;
 }
 
+/* Tablet and smaller screens */
 @media (max-width: 1000px) {
-    .resume{
+    .resume {
         flex-direction: column;
+        justify-content: center;
         text-align: center;
         align-items: center;
     }
-    .resume-text h1{
-    color: white;
-    font-size: 36px;
-    font-weight: 600;
 
-    .resume-text{
-        width: 300px;
-        text-align: center;
-        align-items: center;
+    .resume-text h1 {
+        font-size: 36px;
     }
-    
+
+    .resume-text {
+        width: 300px;
+        /* Ensure text is centered */
+        text-align: center;
+    }
+
+    .resume-text button {
+        align-self: center;  /* Keep button centered on small screens */
+    }
 }
-    
+
+/* Small screens like mobile */
+@media (max-width: 600px) {
+    .resume-text h1 {
+        font-size: 28px;
+    }
+
+    .resume-text button {
+        width: 180px;
+        height: 45px;
+    }
 }

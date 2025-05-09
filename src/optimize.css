@@ -1,19 +1,20 @@
 .optimize {
     background-color: #6DE754;
     width: 100%;
+    height: 200vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .ai-content, .optimize-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     flex-wrap: nowrap;
     width: 100%;
     box-sizing: border-box;
@@ -27,9 +28,10 @@
 
 .ai-text, .optimize-text {
     flex: 1;
-    min-width: 45%;
+    max-width: 30rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -46,6 +48,7 @@
     border-radius: 20px;
     font-weight: 600;
     transition: 0.5s;
+    
 }
 
 .ai-text button:hover, .optimize-btn:hover {
@@ -67,6 +70,10 @@
         min-width: 100%;
         text-align: center;
     }
+    .ai-text button, .optimize-btn {
+        align-self: center;
+    
+}
 }
 
 @media (max-width: 600px) {
@@ -77,5 +84,6 @@
     .ai-text button, .optimize-btn {
         width: 180px;
         height: 45px;
+        
     }
 }

@@ -33,3 +33,10 @@
     width: 450px;
 }
 
+@media (max-width: 1000px) {
+
+
+    .About1 button{
+        align-self: center;
+    }
+}
