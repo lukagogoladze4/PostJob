@@ -22,7 +22,7 @@ const Optimize = () => {
                         <p>By optimizing keywords in your resume, you can increase your chances of getting noticed by recruiters and landing interviews for the jobs you want.</p>
                         <button className='optimize-btn'>Optimize your Resume</button>
                     </div>
-                    <img src={Opt} alt='opt'/>
+                    <img src={Opt} alt='opt' className='opt'/>
                 </div>
             </section>
         </>

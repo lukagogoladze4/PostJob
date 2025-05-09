@@ -1,3 +1,10 @@
+*{
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
 .resume{
     background-color: #161815;
     width: 100%;
@@ -10,7 +17,8 @@
     width: 450px;
     display: flex;
     flex-direction: column;
-    gap: 20px;;
+    gap: 20px;
+    
 }
 .resume-text h1{
     color: white;
@@ -52,5 +60,17 @@
         text-align: center;
         align-items: center;
     }
+    .resume-text h1{
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+
+    .resume-text{
+        width: 300px;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
     
 }
